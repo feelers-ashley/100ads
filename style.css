@@ -1,0 +1,296 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-family: 'Redaction 35', sans-serif;
+  font-size: 3rem;
+  padding-bottom: 9px;
+}
+
+h6 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  pointer-events: none;
+}
+
+ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+  opacity: 0.7;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-weight: 600;
+}
+
+.banner {
+  font-family: 'Redaction 35', sans-serif;
+  font-size: 5.5rem;
+  margin: auto auto;
+  text-align:center; 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.banner:hover {
+  font-family: 'Redacthover', sans-serif;
+}
+
+.txtcenter {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.date {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  line-height: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 20px;
+  display: block;
+}
+
+.document {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  line-height: 8px;
+  font-weight: 500;
+}
+
+.document-1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.document-md {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2rem;
+  line-height: 15px;
+  font-weight: 500;
+}
+
+.document-lg {
+    font-family: 'Roboto Mono', monospace;
+  font-size: 1.4rem;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.doc-head {
+  color: blue;
+  font-weight: 700;
+}
+
+.doc-ky {
+  color: #03B8E1;
+  font-weight: 700;
+}
+
+.doc-xt {
+  color: #FF5733;
+  font-weight: 700;
+}
+
+.doc-shaw {
+  color: #FA8FE1;
+  font-weight: 700;
+}
+
+.doc-ants {
+  color: #0CC634;
+  font-weight: 700;
+}
+
+.doc-rice {
+  color: #6112E2;
+  font-weight: 700;
+}
+
+.doc-helen {
+  color: #F1A014;
+  font-weight: 700;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.footer {
+  font-size: 0.7rem;
+  margin: 50px 0px;
+}
+
+.speaker1 {
+  color: blue;
+}
+
+.speaker2 {
+  color: orangered; 
+}
+
+.txtright {
+  text-align: right;
+}
+
+.txtleft {
+  text-align: left;
+  display: inline;
+}
+
+.list-indent {
+  text-indent: 10px;
+}
+
+.row {
+  margin: 20px 20px;
+}
+
+.spacey {
+  line-height: 35px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("https://uploads-ssl.webflow.com/6048f478ca92443adcb75f0d/6048f479ca92441371b75f23_menu-icon.png");
+}
+
+.navbar-toggler {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.nav-item {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  opacity: 0.8;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  transform: translateY(1.5px);
+}
+
+.navbar-brand {
+  margin: 20px 20px;
+}
+
+.dropdown-item {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.accordion-item {
+  background: rgba(0, 0, 0, 0);
+}
+
+.accordion-button {
+  font-size: 1.3rem;
+  font-family: 'Roboto Mono', monospace;
+  background: rgba(0, 0, 0, 0);
+}
+
+.accordion-button:not(.collapsed) {
+  background: rgba(0, 0, 0, 0);
+  color: green;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgb(69 214 22 / 25%);
+  border-color: #45D616;
+}
+
+@font-face {
+  font-family: 'Redaction 35';
+  src: url('https://uploads-ssl.webflow.com/6048f478ca92443adcb75f0d/6048f61e5a704e3fd355c25d_Redaction_35-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Redacthover';
+  src: url('https://uploads-ssl.webflow.com/6048f478ca92443adcb75f0d/6048f61ebd641c76dc843ada_Redaction_35-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.radial-gradient {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
+
+  /*Fallback if gradients don't work */
+  background: #45D616,#FFFFFF;
+  /*Linear gradient... */
+  background: 
+    radial-gradient(at center, #45D616, #FFFFFF);
+
+}
+
+.popover{
+    max-width: 500px;
+    background-color: green-200;
+
+}
+
+.floatright { float: right; }
+
+#labsCarousel img {
+  max-height: 300px;
+  object-fit: cover;
+}
